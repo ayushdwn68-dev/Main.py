@@ -1,3 +1,4 @@
+// ======================= FULL WORKING SCRIPT (24x7 HARDENED) =======================
 const express = require("express");
 const fs = require("fs");
 const path = require("path");
@@ -417,4 +418,3 @@ app.get("/code", async (req, res) => {
       } else {
         codeMsg = "Session created/loaded — already registered.";
 }
-
